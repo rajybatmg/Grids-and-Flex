@@ -7,46 +7,50 @@
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
-.flex-container {
+.container{
+    border: 3px solid rgb(111, 37, 37);
+    border-radius: 5px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    gap: 2px;
+
+}
+.boxes {
+    width: 200px;
+    height: 210px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Serif Tibetan', serif;
+}
+.images {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.25);
     border: 2px solid red;
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1000px;
-    height: 500px;
-    margin: auto;
 }
-.box {
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
-    border-radius: 10px
-}
-.red--box {
-    background-color: red;
-}
-
-.orange--box {
-    background-color: orange;
-}
-
-.yellow--box {
-    background-color: yellow;
-}
-
-.green--box {
-    background-color: green;
-}
-
-.blue--box {
+.om {
     background-color: blue;
+    font-size: 80px;
 }
-
-.purple--box {
-    background-color: purple;
+.mane {
+    background-color: white;
+    font-size: 80px;
 }
-
-.pink--box {
-    background-color: pink;
+.padme {
+    background-color: green;
+    font-size: 80px;
+}
+.hum {
+    background-color: yellow;
+    font-size: 80px;
 }
