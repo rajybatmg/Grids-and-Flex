@@ -4,18 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Practice</title>
+    <title>CSS Lab | My Projects</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My CSS Practice</h1>
+    <div class="container">
+        <header class="navbar">
+            <a href="./" class="logo">CSS <span>LAB.</span></a>
+            <span class="nav-label">HTML / CSS PROJECTS</span>
+        </header>
 
-    <h2>Flexbox</h2>
-    <a href="./flexbox/index.html">Flexbox Practice</a>
+        <main>
+            <section class="hero">
+                <p class="eyebrow">FRONT-END DEVELOPMENT</p>
+                <h1>Building layouts,<br>
+                    <span>one project at a time.</span>
+                </h1>
+                <p class="description">
+                    A collection of my CSS Flexbox and Grid
+                    practice projects, exploring modern web layouts.
+                </p>
+            </section>
 
-    <h2>Grid</h2>
-    <a href="./grid/index.html">Grid Practice</a>
+            <section class="projects">
+                <h2>Explore Projects</h2>
 
-    <h2>Advanced Grid</h2>
-    <a href="./grid/advance-grid.html">Advanced Grid Practice</a>
+                <div class="project-grid">
+                    <a class="card" href="./flexbox/">
+                        <span class="card-icon">☷</span>
+                        <span class="card-arrow">↗</span>
+                        <h3>Flexbox</h3>
+                        <p>One-dimensional layouts and alignment.</p>
+                        <span class="tag">CSS FLEXBOX</span>
+                    </a>
+
+                    <a class="card" href="./grid/">
+                        <span class="card-icon">▦</span>
+                        <span class="card-arrow">↗</span>
+                        <h3>CSS Grid</h3>
+                        <p>Rows, columns and responsive layouts.</p>
+                        <span class="tag">CSS GRID</span>
+                    </a>
+
+                    <a class="card wide" href="./grid/advance-grid.html">
+                        <span class="card-icon">▤</span>
+                        <span class="card-arrow">↗</span>
+                        <h3>Advanced Grid</h3>
+                        <p>Grid areas, spanning and complex layouts.</p>
+                        <span class="tag">ADVANCED CSS</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made while learning CSS.</p>
+            <a href="https://github.com/rajybatmg/Grids-and-Flex">
+                GitHub ↗
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
