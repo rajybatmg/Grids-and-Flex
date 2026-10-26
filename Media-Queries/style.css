@@ -43,3 +43,10 @@ h2 {
         grid-template-columns: repeat(3, 1fr)
     }
 }
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
