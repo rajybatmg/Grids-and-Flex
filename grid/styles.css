@@ -3,3 +3,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container {
+    display: grid;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "left right"
+                         "footer footer";
+    grid-template-rows: 150px 150px 600px 200px;
+    grid-template-columns: 400px 400px;  
+    position: relative;
+    width: 814px;
+    gap: 10px;
+    margin: auto;
+    border: 2px solid red;
+}
+
+p {
+  text-align: center;
+}
+
+header {
+  grid-area: header;
+  background-color: dodgerblue;
+}
+
+nav {
+  grid-area: nav;
+  background-color: beige;
+}
+
+.left {
+   grid-area: left;
+  background-color: dodgerblue;
+}
+
+.right {
+   grid-area: right;
+  background-color: beige;
+}
+
+footer {
+  grid-area: footer;
+  background-color: dodgerblue;
+}
+h1, h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
